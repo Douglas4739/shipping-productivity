@@ -1,4 +1,5 @@
 import React from "react";
+import './report.css';
 
 
 export default function Report() {
@@ -8,6 +9,6 @@ export default function Report() {
 
 
   return (
-<button>Send Report</button>
+<button className="report">Send Report</button>
   );
 }
