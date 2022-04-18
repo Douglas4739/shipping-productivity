@@ -2,6 +2,7 @@ import React from 'react';
 import "./layout.css";
 import Counter from './counter.js';
 import Card from './card.js';
+import Report from './report.js';
 
 export default function Layout() {
     return (
@@ -24,6 +25,7 @@ export default function Layout() {
             <Card></Card>
             <h2>Notes:</h2>
             <textarea></textarea>
+            <Report></Report>
           </main>
         </div>
       );
