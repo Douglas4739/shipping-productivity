@@ -1,6 +1,5 @@
 import React from 'react';
 import "./layout.css";
-import Counter from './counter.js';
 import Card from './card.js';
 import Report from './report.js';
 
