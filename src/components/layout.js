@@ -20,6 +20,8 @@ export default function Layout() {
             <h1 className="heading">BOL's</h1>
             <Counter></Counter>
             <h1 className="heading">Returns</h1>
+            <h2>Notes:</h2>
+            <textarea></textarea>
           </main>
         </div>
       );

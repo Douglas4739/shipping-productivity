@@ -2,8 +2,8 @@
     margin: auto;
     max-width: 500px;
     font-family: sans-serif;
-    display: grid;
-    grid-template-columns: auto auto auto auto;
+    display: flex;
+    flex-direction: row;
   }
   .heading {
     color: rebeccapurple;
