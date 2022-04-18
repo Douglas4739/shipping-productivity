@@ -11,7 +11,7 @@ export default function Layout() {
           </title>
           <header className='siteTitle'>Shipping Productivity</header>
 
-          <main>
+          <main ClassName='main'>
             <h1 className="heading">Sinks Packed</h1>
             <Card></Card>
             <h1 className="heading">Other Packed</h1>
@@ -23,7 +23,7 @@ export default function Layout() {
             <h1 className="heading">Returns</h1>
             <Card></Card>
             <h2>Notes:</h2>
-            <textarea></textarea>
+            <textarea  name="message" id="notes" placeholder="MESSAGE"></textarea>
             <Report></Report>
           </main>
         </div>

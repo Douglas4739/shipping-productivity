@@ -1,5 +1,6 @@
 import React from "react";
 import Counter from './counter.js';
+import './card.css';
 
 export default function Card() {
 
