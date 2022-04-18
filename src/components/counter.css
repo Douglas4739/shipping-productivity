@@ -1,5 +1,6 @@
 .counter {
     padding: 10px;
+    font-size: 2em;
 
 }
 
@@ -16,7 +17,7 @@
     background-color: #9147ff;
     color: white;
     padding: 0 20px;
-    margin-top: 20px;
+    margin-top: 40px;
 }
 
 .cardTitle {
