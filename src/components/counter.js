@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import './counter.css';
+import "./counter.css";
 
 export default function Counter() {
   // const title = "Counter";
@@ -17,9 +17,13 @@ export default function Counter() {
     <div className="container">
       <div className="card">
         {/* <h1 className='cardTitle'>{title}</h1> */}
-        <button className="btn" onClick={handleClickDown}>-</button>
+        <button className="btn" onClick={handleClickDown}>
+          -
+        </button>
         <p className="counter">{counter}</p>
-        <button className="btn" onClick={handleClickUp}>+</button>
+        <button className="btn" onClick={handleClickUp}>
+          +
+        </button>
       </div>
     </div>
   );

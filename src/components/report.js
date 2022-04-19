@@ -1,14 +1,12 @@
 import React from "react";
-import './report.css';
-
+import "./report.css";
 
 export default function Report() {
-    const sendReport = () => {
-        
-    }
-
+  const sendReport = () => {};
 
   return (
-<button className="report" onClick={sendReport}>Send Report</button>
+    <button className="report" onClick={sendReport}>
+      Send Report
+    </button>
   );
 }
