@@ -17,20 +17,26 @@ export default function Layout() {
           <h2 className="heading">Other Packed</h2>
           <Card />
         </div>
-        <div id='picked'>
+        <div id="picked">
           <h2 className="heading">Picked</h2>
           <Card />
         </div>
-        <div id='BOL'>
+        <div id="BOL">
           <h2 className="heading">BOL's</h2>
           <Card />
         </div>
-        <div id='return'>
+        <div id="return">
           <h2 className="heading">Returns</h2>
           <Card />
         </div>
-        <div><h2 className="siteTitle">Notes:</h2>
-        <textarea name="message" id="notes" placeholder="MESSAGE"></textarea> </div>
+        <div>
+          <h2 className="siteTitle">Notes:</h2>
+          <textarea
+            name="message"
+            id="notes"
+            placeholder="MESSAGE"
+          ></textarea>{" "}
+        </div>
       </main>
       <Report />
     </div>
