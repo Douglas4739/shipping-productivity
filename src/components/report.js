@@ -9,6 +9,6 @@ export default function Report() {
 
 
   return (
-<button className="report">Send Report</button>
+<button className="report" onClick={sendReport}>Send Report</button>
   );
 }
