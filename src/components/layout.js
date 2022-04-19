@@ -9,18 +9,28 @@ export default function Layout() {
       <title>Shipping Productivity</title>
       <header className="siteTitle">Shipping Productivity</header>
       <main ClassName="main">
-        <h1 className="heading">Sinks Packed</h1>
-        <Card />
-        <h1 className="heading">Other Packed</h1>
-        <Card />
-        <h1 className="heading">Picked</h1>
-        <Card />
-        <h1 className="heading">BOL's</h1>
-        <Card />
-        <h1 className="heading">Returns</h1>
-        <Card />
-        <h2 className="siteTitle">Notes:</h2>
-        <textarea name="message" id="notes" placeholder="MESSAGE"></textarea>
+        <div id="sinks">
+          <h2 className="heading">Sinks Packed</h2>
+          <Card />
+        </div>
+        <div id="other">
+          <h2 className="heading">Other Packed</h2>
+          <Card />
+        </div>
+        <div id='picked'>
+          <h2 className="heading">Picked</h2>
+          <Card />
+        </div>
+        <div id='BOL'>
+          <h2 className="heading">BOL's</h2>
+          <Card />
+        </div>
+        <div id='return'>
+          <h2 className="heading">Returns</h2>
+          <Card />
+        </div>
+        <div><h2 className="siteTitle">Notes:</h2>
+        <textarea name="message" id="notes" placeholder="MESSAGE"></textarea> </div>
       </main>
       <Report />
     </div>

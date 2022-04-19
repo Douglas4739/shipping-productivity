@@ -17,9 +17,9 @@ export default function Counter() {
     <div className="container">
       <div className="card">
         {/* <h1 className='cardTitle'>{title}</h1> */}
-        <button className="btn" onClick={handleClickDown}>minus</button>
+        <button className="btn" onClick={handleClickDown}>-</button>
         <p className="counter">{counter}</p>
-        <button className="btn" onClick={handleClickUp}>plus</button>
+        <button className="btn" onClick={handleClickUp}>+</button>
       </div>
     </div>
   );
