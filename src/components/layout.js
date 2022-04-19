@@ -35,6 +35,7 @@ export default function Layout() {
             name="message"
             id="notes"
             placeholder="MESSAGE"
+            cols="65" rows="10"
           ></textarea>{" "}
         </div>
       </main>
