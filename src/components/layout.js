@@ -2,6 +2,7 @@ import React from "react";
 import "./layout.css";
 import Card from "./card.js";
 import Report from "./report.js";
+import ClearButton from "./clear.js";
 
 export default function Layout() {
   return (
@@ -9,6 +10,7 @@ export default function Layout() {
       <title>Shipping Productivity</title>
       <header className="siteTitle">Shipping Productivity</header>
       <main ClassName="main">
+        <ClearButton />
         <div id="sinks">
           <h2 className="heading">Sinks Packed</h2>
           <Card />
