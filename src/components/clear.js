@@ -1,7 +1,8 @@
-import React from 'react'
+import React from 'react';
+import "./clear.css";
 
 export default function ClearButton() {
   return (
-    <button>clear</button>
+    <button className="clear">clear</button>
   )
 }
